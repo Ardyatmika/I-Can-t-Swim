@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>I Can&apos;t Swim</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>22700</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>480</width>
+        <height>854</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Menu</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="godong_burned3" sid="8772474570090547">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Jumpthru" sid="7093197002541211">
+                    <behavior id="jumpthru" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="6903015642163102">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="4281726744065479">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8133771353003639" speed="0">
+                    <frame duration="1" hotspotX="0.504545" hotspotY="0.5" original-source="E:\tugas\mobile\jumper-assets\Sprites\Environment\ground_grass.png">
+                        <collision-poly>
+                            <point x="0.141243" y="0.263158" />
+                            <point x="0.497175" y="0.0842105" />
+                            <point x="0.819209" y="0.336842" />
+                            <point x="0.858757" y="0.494737" />
+                            <point x="0.497175" y="0.894737" />
+                            <point x="0.152542" y="0.715789" />
+                            <point x="0.039548" y="0.494737" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\tugas\mobile\jumper-assets\Sprites\Environment\ground_grass_broken.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player" sid="7423260246506627">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="6440224728411221">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4840059687397883" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\tugas\mobile\jumper-assets\Sprites\Players\bunny1_ready.png">
+                        <collision-poly>
+                            <point x="0.233456" y="0.223592" />
+                            <point x="0.5" y="0.0862676" />
+                            <point x="0.751838" y="0.237676" />
+                            <point x="0.8125" y="0.5" />
+                            <point x="0.841912" y="0.848592" />
+                            <point x="0.5" y="0.880282" />
+                            <point x="0.158088" y="0.848592" />
+                            <point x="0.178309" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Background" sid="4408803978774625">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6376951393960739" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\tugas\mobile\jumper-assets\Sprites\Background\Background.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="5390091077951846">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="gold_" sid="8798172764246183">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9508238398002101" speed="10">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="0.510204" original-source="E:\tugas\mobile\jumper-assets\Sprites\Items\gold_1.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.489796" y="0" />
+                            <point x="0.857143" y="0.142857" />
+                            <point x="1" y="0.489796" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.489796" y="1" />
+                            <point x="0.142857" y="0.857143" />
+                            <point x="0" y="0.489796" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gold_2" sid="4464620761007539">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="2788698109836773" speed="10">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="0.510204" original-source="E:\tugas\mobile\jumper-assets\Sprites\Items\gold_1.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.142857" />
+                            <point x="0.489796" y="0" />
+                            <point x="0.857143" y="0.142857" />
+                            <point x="1" y="0.489796" />
+                            <point x="0.857143" y="0.857143" />
+                            <point x="0.489796" y="1" />
+                            <point x="0.142857" y="0.857143" />
+                            <point x="0" y="0.489796" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\tugas\mobile\jumper-assets\Sprites\Items\gold_2.png">
+                        <collision-poly>
+                            <point x="0.157895" y="0.125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.842105" y="0.125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.842105" y="0.875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.157895" y="0.875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.517241" hotspotY="0.510204" original-source="E:\tugas\mobile\jumper-assets\Sprites\Items\gold_3.png">
+                        <collision-poly>
+                            <point x="0.172414" y="0.102041" />
+                            <point x="0.482759" y="0" />
+                            <point x="0.827586" y="0.102041" />
+                            <point x="1" y="0.489796" />
+                            <point x="0.827586" y="0.897959" />
+                            <point x="0.482759" y="1" />
+                            <point x="0.172414" y="0.897959" />
+                            <point x="0" y="0.489796" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.555556" hotspotY="0.510204" original-source="E:\tugas\mobile\jumper-assets\Sprites\Items\gold_4.png">
+                        <collision-poly>
+                            <point x="0.111111" y="0.0204082" />
+                            <point x="0.444444" y="0" />
+                            <point x="0.888889" y="0.0204082" />
+                            <point x="1" y="0.489796" />
+                            <point x="0.888889" y="0.979592" />
+                            <point x="0.444444" y="1" />
+                            <point x="0.111111" y="0.979592" />
+                            <point x="0" y="0.489796" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtScore" sid="3895219894243139">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="gameover" sid="283368628900308">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3185915526566197" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\tugas\mobile\jumper-assets\Sprites\Other\gameover.png">
+                        <collision-poly>
+                            <point x="0.0229592" y="0.136364" />
+                            <point x="0.5" y="0.0454545" />
+                            <point x="0.982143" y="0.106061" />
+                            <point x="0.989796" y="0.939394" />
+                            <point x="0.5" y="0.969697" />
+                            <point x="0.0229592" y="0.863636" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="7224928108551248">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button" sid="8541862245300634">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="cutegreencartoonfrog14028252_burned" sid="6341666959981504">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3278554706816111" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RAFI\Downloads\cute-green-cartoon-frog-14028252_burned.png">
+                        <collision-poly>
+                            <point x="0.233456" y="0.223592" />
+                            <point x="0.5" y="0.0862676" />
+                            <point x="0.751838" y="0.237676" />
+                            <point x="0.8125" y="0.5" />
+                            <point x="0.841912" y="0.848592" />
+                            <point x="0.5" y="0.880282" />
+                            <point x="0.158088" y="0.848592" />
+                            <point x="0.178309" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LocalStorage" sid="9775992817160825">
+            <plugin id="LocalStorage" />
+        </object-type>
+        <object-type name="txtHigh" sid="7429609280994249">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Touch" sid="6225381480503705">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Button2" sid="1696633239703743">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Text2" sid="7100932080733652">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TapGO" sid="3753945918235135">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="waterclipartcartoon3_burned" sid="5035462784156482">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Anchor" sid="6329359268669174">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7039140045736553" speed="5">
+                    <frame duration="1" hotspotX="0.501285" hotspotY="0.502732" original-source="C:\Users\RAFI\Downloads\water-clipart-cartoon-3_burned.png">
+                        <collision-poly>
+                            <point x="0.0385604" y="0.0819672" />
+                            <point x="0.498715" y="0.0874317" />
+                            <point x="0.943445" y="0.120219" />
+                            <point x="1" y="0.497268" />
+                            <point x="0.976864" y="0.95082" />
+                            <point x="0.033419" y="0.928962" />
+                            <point x="0" y="0.497268" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Game.xml</layout>
+        <layout>Menu.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="5" />
+        <global-instance type="LocalStorage" uid="17" />
+        <global-instance type="Touch" uid="19">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
